@@ -11,5 +11,30 @@ package motorcycletest;
  * @author niepp7406
  */
 public class motorcycle {
+    private String motoCompany, motoMake, motoColour;
+    private int motoYear, motoPrice, motoTopSpeed;
     
+    public motorcycle(){
+        motoCompany = "Suzuki";
+        motoMake = "GSXR 1000";
+        motoColour = "Blue";
+        motoYear = 2017;
+        motoPrice = 14000;
+        motoTopSpeed = 278;
+    }
+    public motorcycle(String mtCompany, String mtMake, String mtColour, int mtYear, int mtPrice, int mtTopSpeed){
+        
+        motoCompany = mtCompany;
+        motoMake = mtMake;
+        motoColour = mtColour;
+        motoYear = mtYear;
+        motoPrice = mtPrice;
+        motoTopSpeed = mtTopSpeed;
+        
+    }
+    public motorcycle String toString(){
+        
+        
+        
+    }
 }
