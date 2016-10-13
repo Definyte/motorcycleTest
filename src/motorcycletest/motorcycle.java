@@ -32,9 +32,11 @@ public class motorcycle {
         motoTopSpeed = mtTopSpeed;
         
     }
-    public motorcycle String toString(){
+    public String toString(){
         
+        String output = "Company: " + motoCompany + "\n";
+        output += "Make: " + motoMake + "\n";
         
-        
+        return output;
     }
 }
